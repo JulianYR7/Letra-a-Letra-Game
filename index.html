@@ -20,7 +20,7 @@
             <header>
 
                 <h2>Letra a Letra</h2>
-                <h3>Puntos: <span id="puntosLocalStorage">0</span></h3>
+                <h3>Puntos: <span id="puntosLocalStorageInicio">0</span></h3>
 
             </header>
 
@@ -41,7 +41,7 @@
                 </div>
 
                 <div class="nivel2">
-                    <h1>1</h1>
+                    <h1>2</h1>
                     <p id="datosNivel2">
                         <h4>Dificultad:</h4>
                         Normal.
@@ -55,7 +55,7 @@
                 </div>
 
                 <div class="nivel3">
-                    <h1>1</h1>
+                    <h1>3</h1>
                     <p id="datosNivel3">
                         <h4>Dificultad:</h4>
                         Dificil.
@@ -69,10 +69,10 @@
                 </div>
 
                 <div class="nivel4">
-                    <h1>1</h1>
+                    <h1>4</h1>
                     <p id="datosNivel4">
                         <h4>Dificultad:</h4>
-                        Facil.
+                        Hardcore.
                         <h4>Palabras:</h4>
                         3 Palabras.
                         <h4>Pistas:</h4>
@@ -84,7 +84,101 @@
 
             </div>
 
+            <div class="reglas">
+
+                <p>
+                    1 letra correcta: +50. <br>
+                    1 letra incorrecta: -50. <br>
+                    1 palabra correcta: +100. <br>
+                    1 palabra incorrecta: -100.
+                </p>
+
+            </div>
+
         </section>
+        
+        <section class="pantallaNivel" id="pantallaNivel1">
+
+            <div class="headerNivel" id="headerNivel1">
+
+                <h3>1</h3>
+                <p class="info1PantallaNivel">
+                    Dificultad: Facil. <br>
+                    Pistas Restantes: <span id="pistasRestantesNivel1">#</span>
+                </p>
+                <p class="info2PantallaNivel">
+                    Puntos: <span id="puntosLocalStorageNivel1">#</span>
+                    <button id="pistaNivel1">Pistas</button>
+                </p>
+
+            </div>
+
+            <div class="mapadeJuego" id="mapaDeJuegoNivel1">
+
+                <div class="cuadroDeJuego" id="cuadroDeJuegoNivel1">
+
+                    <span id="PalabraNivel1">Palabra</span>
+    
+    
+                    <h4>❤️<span id="vidasRestantesNivel1">7</span></h4>
+                    <input type="text" placeholder="Intoduce UNA letra.">
+                    <button id="btnComprobrarLetraNivel1" class="btnComprobarLetra">✅</button>
+                    <button class="volverAInicio">🏠</button>
+    
+                </div>
+                <div class="mensajesDeJuego" id="mensajesDeJuegoNivel1">
+
+                    <span id="cuadroMensajeNivel1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quam deserunt, culpa, aspernatur beatae saepe accusantium commodi cupiditate maiores recusandae sit, provident asperiores ex aliquid sunt praesentium odio corrupti blanditiis.</span>
+                    <button class="btnsControlDePalabras" id="btnNivel1SiguientePalabra1">➡️</button>
+                    <button class="btnsControlDePalabras" id="btnNivel1RepetirPalabra1">🔄️</button>
+
+                </div>
+
+            </div>
+
+        </section>
+        <section class="pantallaNivel" id="pantallaNivel2">
+
+            <div class="headerNivel" id="headerNivel2">
+
+                <h3>2</h3>
+                <p class="info1PantallaNivel">
+                    Dificultad: Normal. <br>
+                    Pistas Restantes: <span id="pistasRestantesNivel2">#</span>
+                </p>
+                <p class="info2PantallaNivel">
+                    Puntos: <span id="puntosLocalStorageNivel2">#</span>
+                    <button id="pistaNivel2">Pistas</button>
+                </p>
+
+            </div>
+
+            <div class="mapadeJuego" id="mapaDeJuegoNivel2">
+
+                <div class="cuadroDeJuego" id="cuadroDeJuegoNivel2">
+
+                    <span id="PalabraNivel2">Palabra</span>
+    
+    
+                    <h4>❤️<span id="vidasRestantesNivel1">5</span></h4>
+                    <input type="text" placeholder="Intoduce UNA letra.">
+                    <button id="btnComprobrarLetraNivel2" class="btnComprobarLetra">✅</button>
+                    <button class="volverAInicio">🏠</button>
+    
+                </div>`
+                <div class="mensajesDeJuego" id="mensajesDeJuegoNivel2">
+
+                    <span id="cuadroMensajeNivel2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quam deserunt, culpa, aspernatur beatae saepe accusantium commodi cupiditate maiores recusandae sit, provident asperiores ex aliquid sunt praesentium odio corrupti blanditiis.</span>
+                    <button class="btnsControlDePalabras" id="btnNivel1SiguientePalabra2">➡️</button>
+                    <button class="btnsControlDePalabras" id="btnNivel1RepetirPalabra2">🔄️</button>
+
+                </div>
+
+            </div>
+
+        </section>
+        <section class="pantallaNivel" id="pantallaNivel3"></section>
+        <section class="pantallaNivel" id="pantallaNivel4"></section>
 
     </body>
 </html>
